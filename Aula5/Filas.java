@@ -3,7 +3,6 @@ import java.util.List;
 
 public class Filas {
 
-    /* Carros referente a classe , carros referente ao objeto */
     List<Carros> carros = new ArrayList<>();
     List<Carros> ordenarId = new ArrayList<>();
 
