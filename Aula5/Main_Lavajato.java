@@ -26,8 +26,6 @@ public class Main_Lavajato {
         Filas FilaEspera = new Filas();
         Filas FilaLavados = new Filas();
 
-
-        //Informação dos clientes.
         I.idCarro = 1081022;
         I.nomeProprietario = "Leonardo";
         I.placaVeiculo = "LEO-0001";
