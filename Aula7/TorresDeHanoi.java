@@ -9,9 +9,9 @@ public class TorresDeHanoi {
     public static void main(String[] args) {
 
         int disco;
-        Scanner entrada = new Scanner(System.in);
+        Scanner leitor = new Scanner(System.in);
         System.out.println("Digite o numero de discos: ");
-        disco = entrada.nextInt();
+        disco = leitor.nextInt();
 
         for ( int contador = 1; Pilha.origem.size() < disco ; contador ++){
             Pilha.origem.push(contador);
